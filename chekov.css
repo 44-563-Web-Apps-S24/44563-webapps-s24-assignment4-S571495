@@ -18,9 +18,10 @@
 
 .LEBEDIEFF:hover
 {
-    color: purple;
-    text-shadow: 2px 2px 4px #FF0000; 
+    color: transparent;
+    text-shadow: 0px 0px 2px #9e0b0b ;
     border: 2px solid #00FF00; 
+    
 }
 
 .SHABELSKI{
@@ -54,6 +55,7 @@ h1 {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    
 }
 
 .character-table th {
@@ -62,4 +64,21 @@ h1 {
 
 .character-table tbody tr:nth-child(even) {
     background-color: #f9f9f9;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
