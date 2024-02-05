@@ -16,8 +16,11 @@
     color: brown;
 }
 
-.LEBEDIEFF{
+.LEBEDIEFF:hover
+{
     color: purple;
+    text-shadow: 2px 2px 4px #FF0000; 
+    border: 2px solid #00FF00; 
 }
 
 .SHABELSKI{
